@@ -1,0 +1,8 @@
+<h2>Animated List</h2>
+<button (click)="addItem()">Add Item</button>
+
+<ul [@listAnim]="items.length">
+  <li *ngFor="let item of items; let i = index" (click)="removeItem(i)">
+    {{ item }}
+  </li>
+</ul>

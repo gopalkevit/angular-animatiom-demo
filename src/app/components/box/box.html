@@ -1,0 +1,10 @@
+<h2>Fade In/Out</h2>
+<button (click)="toggle()">Toggle</button>
+
+<div
+  class="fade-box"
+  [@fade]="isVisible ? 'visible' : 'hidden'"
+>
+ <h1>I fade in and out</h1> 
+</div>
+
