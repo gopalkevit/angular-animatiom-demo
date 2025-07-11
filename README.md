@@ -6,7 +6,6 @@ This project demonstrates basic demo of Angular Animation
 
 # 🔧 Run Locally
 - git clone <repo>
-- cd <project>
 - checkout `development` branch
 - npm install
 - ng serve
